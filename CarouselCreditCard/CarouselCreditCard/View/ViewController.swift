@@ -8,12 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var screen: CarouselCardsView?
+    
+    override func loadView() {
+        self.screen = CarouselCardsView()
+        self.view = self.screen
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemYellow
     }
-
 
 }
 

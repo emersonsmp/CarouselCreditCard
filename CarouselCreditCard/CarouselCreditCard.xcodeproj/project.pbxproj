@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FDA18B9CEC37F99DE2925E5 /* Pods_CarouselCreditCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3425B43B2B49DB3B3FA954 /* Pods_CarouselCreditCard.framework */; };
 		D2A2490F2A01569D00585335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2490E2A01569D00585335 /* AppDelegate.swift */; };
 		D2A249112A01569D00585335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A249102A01569D00585335 /* SceneDelegate.swift */; };
 		D2A249132A01569D00585335 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A249122A01569D00585335 /* ViewController.swift */; };
 		D2A249182A01569F00585335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A249172A01569F00585335 /* Assets.xcassets */; };
 		D2A2491B2A01569F00585335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A249192A01569F00585335 /* LaunchScreen.storyboard */; };
+		D2A249272A0159B300585335 /* CarouselCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A249262A0159B300585335 /* CarouselCardsView.swift */; };
+		D2A249292A015C2900585335 /* structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A249282A015C2900585335 /* structs.swift */; };
+		D2A2492C2A01870600585335 /* FinanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2492B2A01870600585335 /* FinanceCell.swift */; };
+		D2A2492E2A01BE1500585335 /* FinanceHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2492D2A01BE1500585335 /* FinanceHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		496A41F52B48CDBA2A6C36BD /* Pods-CarouselCreditCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarouselCreditCard.debug.xcconfig"; path = "Target Support Files/Pods-CarouselCreditCard/Pods-CarouselCreditCard.debug.xcconfig"; sourceTree = "<group>"; };
+		97AE68E0E5843157F4FD4089 /* Pods-CarouselCreditCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarouselCreditCard.release.xcconfig"; path = "Target Support Files/Pods-CarouselCreditCard/Pods-CarouselCreditCard.release.xcconfig"; sourceTree = "<group>"; };
 		D2A2490B2A01569D00585335 /* CarouselCreditCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselCreditCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A2490E2A01569D00585335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2A249102A01569D00585335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		D2A249172A01569F00585335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2A2491A2A01569F00585335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2A2491C2A01569F00585335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A249262A0159B300585335 /* CarouselCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCardsView.swift; sourceTree = "<group>"; };
+		D2A249282A015C2900585335 /* structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structs.swift; sourceTree = "<group>"; };
+		D2A2492B2A01870600585335 /* FinanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceCell.swift; sourceTree = "<group>"; };
+		D2A2492D2A01BE1500585335 /* FinanceHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceHeaderView.swift; sourceTree = "<group>"; };
+		DE3425B43B2B49DB3B3FA954 /* Pods_CarouselCreditCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarouselCreditCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FDA18B9CEC37F99DE2925E5 /* Pods_CarouselCreditCard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07F1F15701FC177FB80C2581 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE3425B43B2B49DB3B3FA954 /* Pods_CarouselCreditCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		472FBD3E0E1EA9F4FB6C9987 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				496A41F52B48CDBA2A6C36BD /* Pods-CarouselCreditCard.debug.xcconfig */,
+				97AE68E0E5843157F4FD4089 /* Pods-CarouselCreditCard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D2A249022A01569D00585335 = {
 			isa = PBXGroup;
 			children = (
 				D2A2490D2A01569D00585335 /* CarouselCreditCard */,
 				D2A2490C2A01569D00585335 /* Products */,
+				472FBD3E0E1EA9F4FB6C9987 /* Pods */,
+				07F1F15701FC177FB80C2581 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,58 @@
 		D2A2490D2A01569D00585335 /* CarouselCreditCard */ = {
 			isa = PBXGroup;
 			children = (
+				D2A249222A01594500585335 /* Model */,
+				D2A249232A01594D00585335 /* View */,
+				D2A249242A01595300585335 /* ViewModel */,
 				D2A2490E2A01569D00585335 /* AppDelegate.swift */,
 				D2A249102A01569D00585335 /* SceneDelegate.swift */,
-				D2A249122A01569D00585335 /* ViewController.swift */,
 				D2A249172A01569F00585335 /* Assets.xcassets */,
 				D2A249192A01569F00585335 /* LaunchScreen.storyboard */,
 				D2A2491C2A01569F00585335 /* Info.plist */,
 			);
 			path = CarouselCreditCard;
+			sourceTree = "<group>";
+		};
+		D2A249222A01594500585335 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2A249282A015C2900585335 /* structs.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2A249232A01594D00585335 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D2A2492F2A01BE2000585335 /* Header */,
+				D2A2492A2A0186BA00585335 /* Cell */,
+				D2A249122A01569D00585335 /* ViewController.swift */,
+				D2A249262A0159B300585335 /* CarouselCardsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D2A249242A01595300585335 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D2A2492A2A0186BA00585335 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D2A2492B2A01870600585335 /* FinanceCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D2A2492F2A01BE2000585335 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				D2A2492D2A01BE1500585335 /* FinanceHeaderView.swift */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2A2491F2A01569F00585335 /* Build configuration list for PBXNativeTarget "CarouselCreditCard" */;
 			buildPhases = (
+				66F4AE15A4B5DEF0F858F1AF /* [CP] Check Pods Manifest.lock */,
 				D2A249072A01569D00585335 /* Sources */,
 				D2A249082A01569D00585335 /* Frameworks */,
 				D2A249092A01569D00585335 /* Resources */,
+				59080238D874EEB535D32544 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,13 +207,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59080238D874EEB535D32544 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarouselCreditCard/Pods-CarouselCreditCard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarouselCreditCard/Pods-CarouselCreditCard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarouselCreditCard/Pods-CarouselCreditCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F4AE15A4B5DEF0F858F1AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarouselCreditCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2A249072A01569D00585335 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A2492E2A01BE1500585335 /* FinanceHeaderView.swift in Sources */,
+				D2A249272A0159B300585335 /* CarouselCardsView.swift in Sources */,
 				D2A249132A01569D00585335 /* ViewController.swift in Sources */,
+				D2A2492C2A01870600585335 /* FinanceCell.swift in Sources */,
 				D2A2490F2A01569D00585335 /* AppDelegate.swift in Sources */,
+				D2A249292A015C2900585335 /* structs.swift in Sources */,
 				D2A249112A01569D00585335 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +394,7 @@
 		};
 		D2A249202A01569F00585335 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496A41F52B48CDBA2A6C36BD /* Pods-CarouselCreditCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +422,7 @@
 		};
 		D2A249212A01569F00585335 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97AE68E0E5843157F4FD4089 /* Pods-CarouselCreditCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
